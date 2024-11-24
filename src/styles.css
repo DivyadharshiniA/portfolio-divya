@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f7f4fa; /* Light lavender background */
+    color: #4b2e83; /* Deep lavender text */
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align content */
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #9f7aea; /* Lavender shade for header background */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%; /* Full width */
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav {
+    display: flex; /* Use flexbox for navigation links */
+    justify-content: center; /* Center align the links */
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styles */
+  .section {
+    display: flex; /* Flexbox for section content */
+    flex-direction: column; /* Stack content vertically */
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 8px solid #9f7aea; /* Lavender accent */
+  }
+  
+  .section h2 {
+    color: #4b2e83; /* Deep lavender for section headings */
+    border-bottom: 2px solid #e0d4f3; /* Light lavender underline */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section ul li {
+    margin: 0.5rem 0;
+  }
+  
+  /* About Section Layout */
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .about-details {
+    flex: 1;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #4b2e83; /* Deep lavender footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Button & Link Styles */
+  a {
+    color: #4b2e83; /* Lavender-colored links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+/* Resume Link Styles */
+.resume-link {
+    font-weight: bold;
+    color: #4b2e83; /* Lavender color */
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 2px solid #4b2e83;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .resume-link:hover {
+    background-color: #4b2e83;
+    color: white;
+  }
+  
